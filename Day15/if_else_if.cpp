@@ -6,12 +6,12 @@ int main() {
     int y = 20;
 
     if (x > y){
-        cout << "x is greater than y" << endl;  // if condtion is true
+        cout << "x is greater than y" << endl;  // if condtion is true.
 
     }else if (x == y){
-        cout << "x equal to y" << endl; // if condition is false
+        cout << "x equal to y" << endl; // if condition is false.
     }else{
-        cout << "x is less than y" << endl; // if and else if conditions are false
+        cout << "x is less than y" << endl; // if and else if conditions are false.
     }
 
     return 0;
