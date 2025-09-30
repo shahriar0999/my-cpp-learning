@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // Outer loop
 for (int i = 1; i <= 2; ++i) {
   cout << "Outer: " << i << "\n"; // Executes 2 times
