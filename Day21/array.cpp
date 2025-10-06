@@ -12,6 +12,8 @@ int main() {
     // access array element using index
     cout << arr[2] << endl;
 
-
+    // modify array element using index
+    arr[2] = 10;
+    cout << arr[2] << endl;
     return 0;
 }
