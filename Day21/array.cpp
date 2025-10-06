@@ -15,5 +15,11 @@ int main() {
     // modify array element using index
     arr[2] = 10;
     cout << arr[2] << endl;
+
+    // foreach loop
+    string fruits[5] = {"apple", "banana", "cherry", "date", "elderberry"};
+    for (string fruit : fruits) {
+        cout << fruit << " ";
+    }
     return 0;
 }
