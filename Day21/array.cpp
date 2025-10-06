@@ -6,6 +6,12 @@ int main() {
 
     for (int i = 0; i < 4; i++) {
         cout << arr[i] << "";
-        
+
     }
+
+    // access array element using index
+    cout << arr[2] << endl;
+
+
+    return 0;
 }
