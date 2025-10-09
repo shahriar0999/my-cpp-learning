@@ -13,11 +13,21 @@ void greet(string name){  // name is parameter
 }
 
 
+// Default arguments
+void MyFunction(string country = "Bangladesh"){
+    cout << "I am from " << country << endl;
+}
+
 int main(){
     int a = 10, b = 20;
     add(a, b);
 
     // call the greet function
     greet("Alice"); // Here "Alice" is argument
+
+
+    // call the MyFunction with and without argument
+    MyFunction("USA");   // return I am from USA
+    MyFunction();   // return I am from Bangladesh
     return 0;
 }
