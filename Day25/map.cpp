@@ -14,6 +14,12 @@ int main() {
     cout << myMap["Banana"] << "\n";
     cout << myMap["Cherry"] << "\n";
 
+    // new way to access map elements using at() method
+    cout << "\nAccessing elements using at() method:\n";
+    cout << myMap.at("Apple") << "\n";
+    cout << myMap.at("Banana") << "\n";
+    cout << myMap.at("Cherry") << "\n";
+
     return 0;
     
 }
